@@ -2,7 +2,7 @@
 
 namespace ProjetoAula04
 {
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
         {
