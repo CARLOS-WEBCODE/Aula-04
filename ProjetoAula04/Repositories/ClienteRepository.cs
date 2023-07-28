@@ -16,7 +16,7 @@ namespace ProjetoAula04.Repositories
     public class ClienteRepository : IClienteRepository
     {
         //atributo para armazenar a connectionstring do banco de dados..
-        private readonly string _connectionString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=master;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnet Failover=False";
+        private readonly string _connectionString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=BDAula04;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
         
         public void Create(Cliente obj)
         {

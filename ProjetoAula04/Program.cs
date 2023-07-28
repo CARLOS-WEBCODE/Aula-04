@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProjetoAula04.Controllers;
+using System;
 
 namespace ProjetoAula04
 {
@@ -6,7 +7,8 @@ namespace ProjetoAula04
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var clienteController = new ClienteController();
+            clienteController.ManterClientes();
         }
     }
 }
